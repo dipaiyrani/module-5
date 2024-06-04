@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 1350px;
+    max-width: 1500px;
     font-family: "Lato", sans-serif;
     font-family: "Lato", sans-serif;
 }
@@ -49,7 +49,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #474747;
+    color: #999898;
     font-size: 20px;
 }
 
@@ -78,7 +78,7 @@ ul li a {
 
 .banner-greeting {
     font-size: 45px;
-    color: #474747;
+    color: #999898;
     margin-bottom: 0;
     font-weight: 600;
 }
@@ -95,7 +95,7 @@ ul li a {
 }
 
 .banner-deteals {
-    color: #474747;
+    color: #999898;
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -111,4 +111,60 @@ ul li a {
     border-radius: 5px;
     padding: 18px;
     margin-left: 20px;
+}
+
+.about-area {
+    max-width: 1140px;
+    margin-top: 100px;
+    padding: 200px 0px 200px 0px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
+.about-tital {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 850px;
+    font-size: 20px;
+    color: #999898;
+}
+
+.about-info-area {
+    margin-top: 25px;
+    display: flex;
+    max-width: 850px;
+}
+
+.about-info {}
+
+.info-tital {
+    color: #999898;
+}
+
+.info-text {
+    color: #181818;
+    font-weight: bolder;
+}
+
+.what-do-area {
+    text-align: center;
+    max-width: 850px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.what-do-tital {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.what-do-text {
+    color: #999898;
 }
