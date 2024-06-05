@@ -140,8 +140,6 @@ ul li a {
     max-width: 850px;
 }
 
-.about-info {}
-
 .info-tital {
     color: #999898;
 }
@@ -151,11 +149,15 @@ ul li a {
     font-weight: bolder;
 }
 
+.what-i-do-area {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .what-do-area {
     text-align: center;
     max-width: 850px;
-    margin-top: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .what-do-tital {
@@ -167,4 +169,131 @@ ul li a {
 
 .what-do-text {
     color: #999898;
+}
+
+.card-area {
+    display: flex;
+    max-width: 1140px;
+    gap: 25px;
+}
+
+.card-info {
+    max-width: 265px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #d6d3d1;
+}
+
+.card-info img {
+    width: 25px;
+}
+
+.card-tital {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 15px;
+    color: #181818;
+}
+
+.card-text {
+    color: #999898;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.resume-area {
+    max-width: 1140px;
+    margin-bottom: 100px;
+}
+
+.resume-area-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+
+.resume-contanier {
+    display: flex;
+    gap: 15px;
+}
+
+.resume-column {}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.resume-items {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.resume-items-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resume-items-inst {
+    font-size: 20px;
+    font-weight: semi-bold;
+    margin-bottom: 20px;
+    color: #999898;
+}
+
+.resume-items-content {
+    font-size: 15px;
+    color: #999898;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-area {
+    background-color: #FFF8F3;
+    padding: 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-info-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-info-content {
+    font-size: 16px;
+    color: #999898;
+    margin-bottom: 15px;
+}
+
+.icons-links {
+    margin-top: 30px;
+}
+
+.icons-links a {
+    margin-right: 20px;
+}
+
+.action-form .textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: white;
+    width: 100%;
 }
